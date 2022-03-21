@@ -1,11 +1,11 @@
 html {
   box-sizing: border-box;
   background-color: #c9b5ab;
-  font-family: PT serif, serif;
+  font-family: "PT serif", serif;
   line-height: 1.5;
 }
 
-  *, *::before, *::after {
+*, *::before, *::after {
   box-sizing: inherit;
 }
 
@@ -36,14 +36,17 @@ nav {
 
 nav ol {
   list-style-type: none;
+  font-family: "PT Sans", sans;
+  font-size: 1.125rem;
+  color: #222;
 }
 
-nav a {
-  color: #8f2440;;
+a {
+  color: #8f2440;
   text-decoration: none;
 }
 
-nav a:hover {
+a:hover {
   color: #3f1622;
   text-decoration: underline;
 }
@@ -55,7 +58,7 @@ blockquote {
   color: #222;
 }
 
-header+p {
+header {
   font-family: "PT Serif", serif;
   font-size: 1.5rem;
   font-weight: normal;
@@ -88,7 +91,7 @@ footer:first-of-type {
 }
 
 ol {
-  font-family: "PT serif", serif;
+  font-family: "PT Serif", serif;
   font-size: 1.125rem;
   color: #222;
 }
@@ -100,8 +103,8 @@ dt {
   color: #222;
 }
 
-ul {
+ul:last-of-type {
   font-family: "PT Serif", serif;
-  font-size: 0.8;
+  font-size: .8rem;
   color: #222;
 }
