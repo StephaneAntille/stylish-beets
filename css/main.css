@@ -8,8 +8,48 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+img {
+  width: 100%;
+}
+
 h1, h2 {
   font-family: "PT sans", sans-serif;
   color: #3f1622;
+  font-size: 1.5rem;
   font-weight: bold;
+}
+
+figcaption {
+  font-family: "PT resif", serif;
+  font-size: 1.125rem;
+  font-style: italic;
+  text-align: center;
+  color: #222;
+}
+
+nav {
+  font-family: "PT sans", sans-serif;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+nav ol {
+  list-style-type: none;
+}
+
+nav a {
+  color: #8f2440;;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #3f1622;
+  text-decoration: underline;
+}
+
+blockquote {
+  font-family: "PT serif", serif;
+  font-size: 1.5rem;
+  font-weight: italic;
 }
