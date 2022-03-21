@@ -52,4 +52,55 @@ blockquote {
   font-family: "PT serif", serif;
   font-size: 1.5rem;
   font-weight: italic;
+  color: #222;
+}
+
+p:first-of-type {
+  font-family: "PT serif", serif;
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: #222;
+}
+
+p:nth-of-type(2) {
+  font-family: "PT serif", serif;
+  font-size: 1.125rem;
+  color: #222;
+}
+
+p:nth-of-type(3) {
+  font-family: "PT serif", serif;
+  font-size: 1.125rem;
+  color: #222;
+}
+
+footer:first-of-type {
+  font-family: "PT serif", serif;
+  font-size: .8rem;
+  color: #222;
+}
+
+ol {
+  font-family: "PT serif", serif;
+  font-size: 1.125rem;
+  color: #222;
+}
+
+dt {
+  font-family: "PT serif", serif;
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: #222;
+}
+
+ul {
+  font-family: "PT serif", serif;
+  font-size: 0.8;
+  color: #222;
+}
+
+footer:nth-child(10) {
+  font-family: "PT serif", serif;
+  font-size: 0.8;
+  color: #222;
 }
